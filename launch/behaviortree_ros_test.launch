@@ -1,0 +1,5 @@
+<launch>
+  <node name="behaviortree_ros_test" pkg="behaviortree_ros_test" type="behaviortree_ros_test.py"
+    output="screen" respawn="false" required="true">
+  </node>
+</launch>
